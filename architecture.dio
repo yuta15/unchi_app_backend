@@ -1,0 +1,85 @@
+<mxfile host="65bd71144e">
+    <diagram id="Da5p4ZN5rIDeND-khVb2" name="ページ1">
+        <mxGraphModel dx="1386" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="96.66" y="50" width="463.34" height="271.02" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" vertex="1" parent="1">
+                    <mxGeometry x="246.66" y="120" width="50" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="250" width="56.66" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Entra_Identity.svg;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="256.45" width="49" height="43.55" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Entra_Managed_Identities.svg;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="213.55" width="45.5" height="40.44" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="endArrow=classic;html=1;entryX=0.529;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="620" y="460" as="sourcePoint"/>
+                        <mxPoint x="670" y="410" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="160" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="endArrow=classic;html=1;entryX=0.42;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.953;exitY=0.62;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3" target="7">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="281" y="170" as="sourcePoint"/>
+                        <mxPoint x="280" y="261" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="back" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="100.00000000000003" y="53" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="LINE" style="ellipse;whiteSpace=wrap;html=1;fillColor=#33FF33;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="360" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.494;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="284.9900399999999" y="300" as="sourcePoint"/>
+                        <mxPoint x="640" y="400" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="285" y="360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="256.66" y="590" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Page" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.page;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="510" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="endArrow=classic;html=1;entryX=0.353;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.333;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="17" target="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="304" y="291" as="sourcePoint"/>
+                        <mxPoint x="401" y="221" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1" source="17" target="4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="540" y="410" as="sourcePoint"/>
+                        <mxPoint x="590" y="360" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="380" y="440"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="Easy Auth" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="291.02" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="LINE Nortify" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="360" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="LINE Nortify&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;Register Post&lt;/span&gt;&lt;div&gt;and&lt;/div&gt;&lt;div&gt;LINE Message Post&lt;/div&gt;&lt;div&gt;and&lt;/div&gt;&lt;div&gt;Message Template Post/Get&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="240" width="186.66" height="81.02" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
