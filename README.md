@@ -1,42 +1,39 @@
-# unchi_app_backend
+# このリポジトリの概要
 
-# Settings
+unchi_app のバックエンドを管理します。主な役割は「うんちの状態」を記録・判定し、適切なメッセージを LINE などの外部サービスに連携することです。
+プロジェクトの入口（方針・設定・設計資料）を集約し、実装は本リポジトリ配下で進めます。
 
-|Setting            |Docs                                                       |
-|:-----------------:|:----------------------------------------------------------|
-|python-version     |3.12                                                       |
-|Ubuntu             |22.04                                                      |
-
-## Environment Arguments
-
-|Args               |Docs                                                       |
-|:------------------|:----------------------------------------------------------|
-|Env                |Dev/Prd                                                    |
-|Env                |Dev/Prd                                                    |
+- 対象範囲: API/ドメイン/インフラ連携（フロントエンドは別管理）
+- 想定ユースケース: 個人が自分の環境へデプロイして、日々の状態を手軽に記録・通知
 
 
+# 機能
+現時点では雛形のため、実装は未着手です。
 
-## 環境設定方法
+## 実装予定機能
+- うんちの状態を LINE に送信できる
+- 過去のうんちの状態を確認できる
+- 通知タイミングや頻度の調整（例: 朝/夜のまとめ通知）
+- 状態のラベル/タグ管理（例: 量・硬さ・体調メモ）
 
 
-### uvのインストール
+# ドキュメントはこちら
 
-shを使用する場合のインストール方法
-`curl -LsSf https://astral.sh/uv/install.sh | sh`
-詳細な設定は[こちら](https://docs.astral.sh/uv/getting-started/installation/)
-uvコマンドの自動補完を設定は[こちら](https://docs.astral.sh/uv/getting-started/installation/#shell-autocompletion)
+- ユーザー向けガイド: 未実装
+（ユーザー向け手順書は準備中。整備後に `docs/user/` 配下へ配置します）
+- 開発環境ガイド（開発者向け）: [docs/developer/settings.md](./docs/developer/settings.md)
+- アーキテクチャ図（draw.io 対応）: [architecture.dio](./architecture.dio)
+- ライセンス: [LICENSE](./LICENSE)
 
-- UVの機能
-機能の詳細は[こちら](https://docs.astral.sh/uv/getting-started/features/)
 
-### python versionのインストール
-`uv python install <python-version>`
 
-### venvの作成
-`.venv`の作成と有効化
-`uv venv`
-`source .venv/bin/activate`
 
-### pyproject.tomlの内容と同期
-以下コマンドで設定の同期
-`uv sync --group dev`
+# Contributor
+
+はじめて参加される方へ:
+
+1) 本 README と「ドキュメントはこちら」の各リンクを一読し、目的と範囲を把握してください。
+2) 取り組みたい課題があれば Issue を作成、または既存 Issue に参加してください。
+3) 変更が小さい場合は直接 PR を作成しても構いません（背景と意図を簡潔に記載）。
+
+不明点や追加が必要な資料があれば、Issue で提案してください。ドキュメントの改善からの貢献も歓迎します。
